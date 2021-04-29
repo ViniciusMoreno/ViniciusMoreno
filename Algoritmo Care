@@ -1,0 +1,72 @@
+funcao inicio()
+	{
+	 
+	real km_prestador,desconto_saida,custo_excedente,custo_km,saida,custos_adicionais,valor_novo,cobertura,casa,a_b,fora_rota,valor_km,cliente_paga,km_fora,km_seguro,minutos_espera
+	
+     escreva ("Previa :")
+     leia (minutos_espera)
+     
+     escreva ("Quanto custa a saida? :R$")
+     
+     leia(saida)
+         
+     escreva ("Km totais? : ")
+     
+     leia (km_prestador)
+
+     desconto_saida = (km_prestador-40)
+
+     escreva ("O excedente em km e de : ", desconto_saida, " km  " )
+        
+    escreva ("\nQuanto custa cada km? :")
+     
+     leia (custo_km)
+    
+     custo_excedente = (custo_km*desconto_saida)
+
+    escreva ("Valor reboque : R$ ", custo_excedente+saida)
+
+    
+    escreva ("\nSe houve custos adicionais, quais foram? : ")
+    
+    leia (custos_adicionais)
+
+    valor_novo = (custos_adicionais+custo_excedente+saida)
+
+    escreva ("VALOR TOTAL : R$ ", valor_novo)
+
+    escreva ("\n ---------------------")
+
+    escreva ( "\nDe quanto e cobertura do associado : ")
+    
+    leia (cobertura)
+
+    escreva ("Qual a distancia de AxB? : ")
+    
+    leia (casa)
+
+    a_b=(casa*2)
+
+    escreva ("O percurso AxB e de : ", a_b, " km " )
+
+    fora_rota = (km_prestador-a_b)
+    
+    escreva ( "\nPossui ", fora_rota, " km fora de rota. ")
+
+    valor_km = (valor_novo/km_prestador)
+    
+    escreva ( "\nO km da viagem custa : R$ ", valor_km )
+
+    km_fora = (km_prestador-fora_rota-cobertura)
+
+    escreva (" \nOs km fora da cobertura e de : ", km_fora, " Km " )
+
+    cliente_paga = (km_fora*valor_km)
+
+    escreva (" \nValor excedente da cobertura : R$ ", cliente_paga)
+
+    km_seguro= (valor_novo-cliente_paga)
+
+
+   escreva ("\nVALOR TOTAL CARE : R$ ", km_seguro )
+  
