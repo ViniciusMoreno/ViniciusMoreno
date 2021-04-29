@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Vini Moreno
-- 👀 I’m interested in learn new skills, watch anime, read manga and and playing of league of legends
+- 👀 I’m interested in learn new skills, watch anime, read manga and  playing of league of legends
 - 🌱 I’m currently learning Analysis and systems development at FECAF
 - 💞️ I’m looking to collaborate on projects for beginners in order to receive knowledge
 - 📫 How to reach me vinicius.moreno@a.fecaf.com.br
