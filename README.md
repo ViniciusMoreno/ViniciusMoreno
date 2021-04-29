@@ -4,6 +4,7 @@
 - 💞️ I’m looking to collaborate on projects for beginners in order to receive knowledge
 - 📫 How to reach me vinicius.moreno@a.fecaf.com.br
 
+-<div  href='https://br.linkedin.com/in/vinicius-moreno-da-silva?trk=profile-badge' 'target="blank">Vinicius Moreno</a></div>
 
 <!---
 ViniciusMoreno/ViniciusMoreno is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
